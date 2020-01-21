@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context="wallsplash.itechnotion.com.StratupActivity">
+    tools:context="wallsplash.bipul.com.StratupActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

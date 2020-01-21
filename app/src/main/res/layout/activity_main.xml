@@ -8,7 +8,7 @@
     android:background="@color/colorWhite"
     android:clickable="true"
     android:focusable="true"
-    tools:context="wallsplash.itechnotion.com.MainActivity">
+    tools:context="wallsplash.bipul.com.MainActivity">
 <include layout="@layout/toolbar_home"/>
     <RelativeLayout
         android:layout_width="match_parent"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="wallsplash.itechnotion.com.wallsplash">
+    package="wallsplash.bipul.com.wallsplash">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="wallsplash.itechnotion.com.notification.MyApplication"
+        android:name="wallsplash.bipul.com.notification.MyApplication"
         android:allowBackup="true"
         android:configChanges="orientation|screenSize"
         android:icon="@mipmap/ic_launcher"
@@ -28,7 +28,7 @@
         tools:targetApi="m"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="wallsplash.itechnotion.com.SplashActivity"
+            android:name="wallsplash.bipul.com.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan">
@@ -39,28 +39,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="wallsplash.itechnotion.com.MainActivity"
+            android:name="wallsplash.bipul.com.MainActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoTitleBar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="wallsplash.itechnotion.com.StratupActivity"
+            android:name="wallsplash.bipul.com.StratupActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="wallsplash.itechnotion.com.registration.RegisterActivity"
+            android:name="wallsplash.bipul.com.registration.RegisterActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="wallsplash.itechnotion.com.login.LoginActivity"
+            android:name="wallsplash.bipul.com.login.LoginActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="wallsplash.itechnotion.com.forgotpassword.ForgotPWActivity"
+            android:name="wallsplash.bipul.com.forgotpassword.ForgotPWActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="wallsplash.itechnotion.com.ApplyActivity"
+            android:name="wallsplash.bipul.com.ApplyActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.NoActionBar" />
 
@@ -75,7 +75,7 @@
             android:resource="@color/colorAccent" />
 
         <service
-            android:name="wallsplash.itechnotion.com.notification.MyNotificationExtenderService"
+            android:name="wallsplash.bipul.com.notification.MyNotificationExtenderService"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE">
             <intent-filter>
